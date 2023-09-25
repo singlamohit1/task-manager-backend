@@ -1,0 +1,38 @@
+{
+  "development": {
+    "username": "infeedo_user",
+    "password": "7bBkGbuxnTVWTNF1uGG3fZ0DxD1NlJhA",
+    "database": "infeedo",
+    "host": "dpg-ck8nl8o8elhc73fd2hl0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+      "require": true
+      }
+    }
+  },
+  "test": {
+    "username": "infeedo_user",
+    "password": "7bBkGbuxnTVWTNF1uGG3fZ0DxD1NlJhA",
+    "database": "infeedo",
+    "host": "dpg-ck8nl8o8elhc73fd2hl0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+      "require": true
+      }
+    }
+  },
+  "production": {
+    "username": "infeedo_user",
+    "password": "7bBkGbuxnTVWTNF1uGG3fZ0DxD1NlJhA",
+    "database": "infeedo",
+    "host": "dpg-ck8nl8o8elhc73fd2hl0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+      "require": true
+      }
+    }
+  }
+}

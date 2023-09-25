@@ -3,12 +3,11 @@
 This is a Node.js-based Task Manager application that provides CRUD (Create, Read, Update, Delete) operations for managing tasks.
 
 
-### Setup process
+### Installation
 
 1. Clone the repository:
    git clone https://github.com/singlamohit1/task-manager-backend
-   cd task-manager
-   npm start
+   cd task-manager-backend
 
 
 ### File Structure
@@ -40,5 +39,8 @@ GET: Retrieve all tasks.
 
 /api/task-metrics
 GET: Get task metrics based on status and timeline.
+
+
 ### Database
 The application uses Sequelize as an ORM to interact with the database. You can find the database configuration in config/config.json.
+(a free tier postgres database is setup on cloud)
